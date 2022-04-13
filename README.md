@@ -8,6 +8,7 @@
 - MTU adjustments, especially on PPPoE (needed, otherwise performance sucks). [Done]
 - A service for automatically making MTU adjustments upon boot (bypassing the pain of Ubuntu "netplan"). [Done]
 - Firewall for just one VPS, rather than as a group. [Done]
+- Reduce DNS packet size for nameserver [Done] (See https://docs.pi-hole.net/ftldns/dnsmasq_warn/)
 - DD-WRT/OpenWrt Router implementation. [Work in progress, could use some help here] (See https://forum.openwrt.org/t/wireguard-pihole-dns-not-working-on-openwrt/125147)
 
 # Full Tunnel or Split Tunnel IPv6 + IPv4 Wireguard VPN connections to an ad blocking Pi-Hole server, from your Android, iOS, Chrome OS, Linux, macOS, & Windows devices
