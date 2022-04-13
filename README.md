@@ -3,6 +3,13 @@
 # ... AS WELL AS SOME NICE LITTLE EXTRA TIDBITS ON CIRCUMVENTING CENSORSHIP.
 # THIS DISCLAIMER WILL BE REMOVED AFTER THE PROJECT IS COMPLETE.
 
+#To Do (Plans of implementations for this guide):
+- Decentralized DNS (reduce censorship). [Done]
+- MTU adjustments, especially on PPPoE (needed, otherwise performance sucks). [Done]
+- A service for automatically making MTU adjustments upon boot (bypassing the pain of Ubuntu "netplan"). [Done]
+- Firewall for just one VPS, rather than as a group. [Done]
+- DD-WRT/OpenWrt Router implementation. [Work in progress, could use some help here] (See https://forum.openwrt.org/t/wireguard-pihole-dns-not-working-on-openwrt/125147)
+
 # Full Tunnel or Split Tunnel IPv6 + IPv4 Wireguard VPN connections to an ad blocking Pi-Hole server, from your Android, iOS, Chrome OS, Linux, macOS, & Windows devices
 
 <img src="./images/data-privacy-risk.svg" width="125" align="right">
